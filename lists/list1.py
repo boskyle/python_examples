@@ -12,6 +12,9 @@ print(hsAge2)
 print (hsAge[0])
 print (hsAge2[4])
 
-# for loop to iterate through all the items of list => hsAge
+#adds another value to end of list 'hsAge'
+hsAge.append(19)
+
+#for loop to iterate through all the items of list => hsAge
 for x in hsAge:
     print(x)
